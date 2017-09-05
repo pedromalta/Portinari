@@ -1,0 +1,104 @@
+[
+    {
+        "id": "Portao",
+        "name": "Portão",
+        "widgets": [
+            {
+                "name": "Camera Portão",
+                "sizeX": 9,
+                "sizeY": 6,
+                "type": "image",
+                "row": 0,
+                "col": 0,
+                "image_source": "static",
+                "url": "http://192.168.1.101:8081",
+                "intervaltype": "seconds",
+                "refresh": 10,
+                "$$hashKey": "object:54"
+            },
+            {
+                "name": "Abrir portão",
+                "sizeX": 3,
+                "sizeY": 1,
+                "item": "gate",
+                "type": "button",
+                "row": 0,
+                "col": 9,
+                "iconset": "smarthome-set",
+                "icon": "garage",
+                "icon_size": 32,
+                "icon_nolinebreak": true,
+                "icon_replacestext": false,
+                "command": "ON",
+                "$$hashKey": "object:55"
+            },
+            {
+                "name": "Holofote",
+                "sizeX": 3,
+                "sizeY": 1,
+                "item": "light",
+                "type": "button",
+                "row": 1,
+                "col": 9,
+                "iconset": "smarthome-set",
+                "icon": "bulb",
+                "icon_size": "32",
+                "icon_nolinebreak": true,
+                "action_type": "toggle",
+                "command": "ON",
+                "command_alt": "OFF",
+                "background": "#808080",
+                "foreground": "#CCCCCC",
+                "foreground_active": "#FFCC00",
+                "$$hashKey": "object:56"
+            }
+        ],
+        "row": 0,
+        "col": 0,
+        "tile": {
+            "iconset": "smarthome-set",
+            "icon": "garage"
+        },
+        "$$hashKey": "object:19"
+    },
+    {
+        "id": "Cozinha",
+        "name": "Cozinha",
+        "widgets": [],
+        "row": 0,
+        "col": 1,
+        "tile": {
+            "iconset": "freepik-household",
+            "icon": "stove"
+        },
+        "$$hashKey": "object:20"
+    },
+    {
+        "id": "Sistema",
+        "name": "Sistema",
+        "widgets": [
+            {
+                "name": "Reiniciar Portão",
+                "sizeX": 4,
+                "sizeY": 1,
+                "item": "reboot",
+                "type": "button",
+                "row": 0,
+                "col": 0,
+                "command": "ON",
+                "iconset": "freepik-gadgets",
+                "icon": "white-plug",
+                "icon_size": 32,
+                "icon_nolinebreak": true,
+                "$$hashKey": "object:93"
+            }
+        ],
+        "row": 1,
+        "col": 0,
+        "tile": {
+            "iconset": "freepik-gadgets",
+            "icon": "cpu-chip"
+        },
+        "$$hashKey": "object:21"
+    }
+]
