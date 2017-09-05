@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/pedromalta/PortinariPhotos/raw/master/Camera/20622055_1861886817171137_7541796597250894649_n.jpg" alt="Video Stream for the Portinari Project."/>
+</p>
+
 # Motion
 
 This is the configuration for the Video Stream
