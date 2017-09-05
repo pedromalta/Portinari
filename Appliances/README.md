@@ -5,7 +5,7 @@
 # Appliances Controller
 Little Python Script for exposing the appliances connected to the RaspBerry GPIO over the local network through a Web Api.
 
-Place the Python script ``appliances.py`` on an "appliances" folder inside your home folder ``/home/pi``
+Place the Python script ``appliances.py`` on a folder inside your home folder like ``/home/pi/appliances``
 
 Install supervisor with:
 ``sudo apt-get install supervisor``
