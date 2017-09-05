@@ -8,4 +8,4 @@ Set it to start at boot. Set the browser to start at boot pointing to the OpenHa
 
 Make your configurations or use the JSON and Items provided in this project.
 
-Items go on the ``folder`` folder and JSON file goes on the ``folder`` folder.
+Items go on the ``openhab/conf/items`` folder and JSON file can be imported from the HabPanel UI.
