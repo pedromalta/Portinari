@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/pedromalta/PortinariPhotos/raw/master/Central%20Client/20170830_141748.jpg" alt="Central Command Center for Portinari."/>
+</p>
+
 # OpenHab Client
 
 This is for the Central Controller for Portinari, in my setup it is installed on a Eee PC t91 running LXLE, your milleage may vary.
