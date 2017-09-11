@@ -23,6 +23,15 @@ def reboot():
     system('systemctl reboot')
     return '{"status" : "system rebooting"}'
 
+@app.route('/rebootcamera')
+def rebootcamera():
+    system('motion restart')
+    return '{"status" : "camera rebooting"}'
+
+@app.route('/ping')
+def ping():
+    return '{"status" : "pong"}'
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
 
